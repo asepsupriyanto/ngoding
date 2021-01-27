@@ -24,13 +24,13 @@
 
   // Check if file already exists
   if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
+    echo "Mohon maaf file sudah ada " . "<br>";
     $uploadOk = 0;
   }
 
   // Check file size
   if ($_FILES["fileToUpload"]["size"] > 500000) {
-    echo "Sorry, your file is too large.";
+    echo "Maaf file terlalu besar";
     $uploadOk = 0;
   }
 
