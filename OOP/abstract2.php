@@ -15,7 +15,7 @@
     }
 
     class ChildClass extends ParentClass
-    {
+    
         public function prefixName($name, $operator = ",", $greet = "Selamat")
         {
             if ($name == "Asep Supriyanto") {
